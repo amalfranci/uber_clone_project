@@ -1,0 +1,316 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+nav{
+  
+    height: 100px;
+    background-color: black;
+    color: white;
+    
+    
+}
+nav.left{
+    display: flex;
+   
+    
+    
+}
+nav.right{
+    display: flex;
+}
+.left img{
+    float: left;
+    margin-left: 40px;
+    
+}
+.left p{
+   float: left;
+   
+   margin-top: 35px;
+  
+    
+   
+     
+}
+
+.right {
+     
+    display: flex;
+    margin-left: 900px;
+     
+   
+   
+}
+.right p{
+    
+    margin-top:35px;
+    
+}
+nav button{
+    margin-right: 20px;
+    margin-top:35px;
+    width: 70px;
+    height: 20px;
+    cursor: pointer;
+}
+ nav p{
+    text-align: center;
+    text-indent: 8px;
+    margin-top:35px;
+    background-color: black;
+        width:80px;
+        height:25px;
+        border-radius: 15px;
+        border-color: blue;
+        color: white;
+        cursor: pointer;
+     font-weight: 600;
+    
+
+    
+   
+}
+nav p:hover{
+    background-color: rgb(84, 84, 84);
+         color: black;
+    
+}
+nav p:active{
+        opacity: 0.5;
+}
+.card{
+    background-image: url(home.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height:600px;
+    padding-top: 40px;
+}
+.main{
+    width: 500px;
+    height: 500;
+ background-color: white;
+    margin-left: 60px;
+    margin-top
+}
+.main .icon{
+    display: flex;
+    justify-content: center;
+    border: 1px soild rgb(223,234,233);
+    
+}
+.main .icon .car{
+    margin-inline:75px;
+    margin-top: 31px;
+    border-bottom: double;
+    
+}
+h1{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 42px;
+}
+    
+
+
+    
+
+.main input{
+    width: 450px;
+    height: 55px;
+    background-color:antiquewhite;
+    margin-top: 40px;
+    margin-left: 30px;
+    border: none;
+    
+
+    
+    
+}
+.fr{
+    margin-top: 34px;
+    margin-left: 30px;
+     background-color: black;
+    color:white;
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+}
+.rf{
+   
+    margin-left: 30px;
+     background-color: rgb(238, 238, 238);
+    color:black;
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+}
+.variety{
+    padding-top: 130px;
+  padding-right: 80px;
+  padding-bottom: 20px;
+  padding-left: 80px;
+}
+
+.contents{
+    display: flex;
+    text-align: center;
+   
+}
+.content2{
+    display: flex;
+    text-align: center;
+}
+
+
+.mode{
+    display: flex;
+}
+.overall{
+    display: flex;
+}
+ .outer{
+    margin-top: 40px;
+     font-size: 40px;
+     margin-left: 90px;
+     
+}
+.safty_outer{
+  
+    display: flex;
+    padding-bottom: 50px;
+}
+.safty_inner{
+     padding-top: 50px;
+  padding-right: 20px;
+
+  padding-left: 20px;
+    text-align: center;
+    
+}
+.outer2 h1{
+    text-align: left;
+    margin-left: 60px;
+    
+}
+.overall_2{
+    display: flex;
+}
+.outer_3{
+    display: flex;
+    padding-top: 130px;
+  padding-right: 80px;
+  padding-bottom: 20px;
+  padding-left: 80px;
+    background-color:aliceblue;
+    
+}
+.outer_3 h1{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+    
+    
+}
+.outer_5{
+    background-color: aliceblue;
+    
+}
+.outer_5 h1{
+    text-align: left;
+    margin-top: 20px;
+    
+    margin-left: 40px;
+    
+}
+.outer_6{
+    background-color: black;
+    color: white;
+    display: flex;
+     padding-top: 15px;
+    padding-left: 
+    padding-right: 40px;
+    text-align: left;
+    text-indent:150px;
+    
+}
+.inner_7{
+    
+padding-top: 200px;
+    
+}
+.inner_7 p{
+    color: white;
+    text-decoration: none;
+    transition: 0.7s all;
+    cursor: pointer;
+    
+}
+.inner_7 p:hover{
+
+         color:dimgrey;
+    
+}
+.inner_6 p{
+    color: white;
+    text-decoration: none;
+    transition: 0.7s all;
+    cursor: pointer;
+    
+}
+.inner_6 p:hover{
+     color:dimgrey;
+}
+.outer_9{
+    padding-left: 20px;
+    background-color:black;
+    color: white;
+    padding-right: 40px
+    
+}
+.outer_9 img{
+    margin: 10px;
+    width: 17px;
+    height:17px;
+    margin-top: 90px;
+    margin-left: 54px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.outer_9 i{
+   
+   
+    font-size: 10px;
+   float: right;
+    cursor: pointer;
+    text-indent: 50px;
+    
+    
+    
+}
+.app{
+    padding-top: 1px;
+    display: inline;
+    
+}
+.app img{
+    width: 100px;
+    height: 60px;
+}
+.app a{
+    margin-left: 40px;
+    color: white;
+}
+
+
+
+
+    
+    
